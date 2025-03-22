@@ -1,5 +1,8 @@
-from image import Image
+# from image import Image
+from directory import Directory
+# img = Image("./amostras/capt.jpg")
+directory = Directory("./amostras")
 
-img = Image("./amostras/capt2.jpg")
+directory.get_directory_proprieties_info()
 
-img.get_image_proprieties_info()
+print(directory.get_last_print())
